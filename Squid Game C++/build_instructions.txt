@@ -1,0 +1,13 @@
+# Build Instructions
+
+## Windows
+1. Install MinGW or MSVC compiler.
+2. Open terminal in project root folder.
+3. Run: `g++ src/main.cpp -o SquidGame.exe`
+4. Execute: `./SquidGame.exe`
+
+## Linux/Mac
+1. Open terminal in project root folder.
+2. Run: `g++ src/main.cpp -o SquidGame`
+3. Execute: `./SquidGame`
+(Note: Remove or replace <windows.h> usage for cross-platform support.)
